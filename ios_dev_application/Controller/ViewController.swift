@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         hintLabel.text = "Game has started!"
         gameBrain.label = hintLabel
         gameBrain.buttonGrid = [row1Buttons, row2Buttons, row3Buttons]
-        
         gameBrain.resetGame()
     }
     
